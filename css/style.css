@@ -1,0 +1,274 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+header {
+	width: 60%;
+	margin: 0px auto;
+	height: 60px;
+	padding-top: 20px;
+}
+header h1 {
+	float: left;
+}
+nav {
+	float: right;
+	margin-right: 80px;
+}
+nav>ul>li {
+	display: inline-block;
+	margin-left: 30px;
+}
+header nav a {
+	text-transform: uppercase;	
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #aaa;
+	font-size: 12px;
+}
+a:hover {
+	color: #333;
+}
+h1 {
+	font-size: 30px;
+	letter-spacing: 2px
+}
+.portada {
+	width: 100%;
+}
+.portada-content {
+	width: 60%;
+    margin-left: 25%;
+    position: absolute;
+    top: 230px;    
+}
+.portada-content h1 {
+	color: #fff;
+}
+.portada-content p {
+	color: #aaa;
+    font-weight: 100;
+	font-size: 12px;
+	line-height: 24px;
+}
+.search {
+	width: 60%;
+	margin: 0px auto;
+	background: #fff;
+	font-size: 12px;
+}
+form {
+	margin-top: -40px;
+}
+#search-button {
+	width: 20%;
+	height: 70px;
+	margin-right: -5px;	
+	border: none;
+	background: #37a8d2;
+	color: #fff;
+}
+.searchfield {
+	height: 70px;
+	width: 80%;
+	margin-right: -5px;
+	padding-left: 20px;
+	border: none;
+	box-shadow: -1px 1px 1px #eee;
+}
+.iconos {
+	width: 60%;
+	margin: 0px auto;
+	margin-top: 60px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.iconos h3 {
+	color: #000;
+	text-transform: uppercase;
+}
+.icons {
+	width: 70px;
+	margin-bottom: 30px;
+}
+.services {
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+}
+.threedot {
+	margin-bottom: 20px;
+}
+.wrap-hostro {
+	padding-top: 60px;
+	overflow: hidden;
+}
+.wrap-hostro h3{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.iphone {
+	width: 80%;
+	margin: 0px auto;
+	position: relative;
+	z-index: 3;
+}
+.hostro {
+	width: 60%;
+	margin: 0px auto;
+	padding-top: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.hostro p {
+	color: #aaa;
+	font-size: 12px;
+}
+.hostro-serv, .hostro-serv-left, .hostro-serv-right {
+	float: left;
+	width: 33%;
+}
+.hostro-serv-right {
+	text-align: left;
+	padding-top: 30px;
+}
+.hostro-serv-left {
+	text-align: right;
+	padding-top: 30px;
+}
+.hostro-txt-left {
+	float: left;
+    width: 70%;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.hostro-txt-right {
+	float: left;
+    width: 70%;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.hsimg-l {
+	float: left;
+}
+.hsimg-r {
+	float: left;
+}
+.pricing {
+	width: 100%;
+	margin-top: -90px;
+	position: absolute;
+}
+.tabla-precios {
+	width: 60%;
+	margin: 0px auto;
+	padding: 10px 0px 100px;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 40px;
+	font-size: 12px;
+	position: relative;
+}
+.tabla-precios p {
+	color: #aaa;
+}
+.price-header {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.price-header h3 {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+sup {
+	font-size: 12px;
+}
+hr {
+	color: #aaa;
+}
+.precios ul {
+	padding-top: 20px;
+}
+.price-header p {
+	margin-top: -5px;
+	color: #ccc;
+}
+.precios {
+	float: left;
+    width: 13%;
+    margin: 50px 8.3px 0px;
+    padding: 50px 40px 20px;
+    background: #fff;
+    text-align: left;
+    line-height: 3em;
+    box-shadow: 1px 1px 10px #ccc;
+}
+.pr1 {
+	float: right;
+	color: #0ccdff;
+}
+.pr2 {
+	float: right;
+	color: #ffd608
+}
+.pr3 {
+	float: right;
+	color: #f4996c;
+}
+.pr4 {
+	float: right;
+	color: #ff5b27;
+}
+.price-footer {
+	text-align: center;
+}
+.select-plan {
+	margin-top: 20px;
+	padding: 7px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background: #01aff3;
+    color: #fff;
+}
+.hosting-use {
+	text-align: center;
+	background: #142e3f;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 100;
+	padding: 60px 0px;
+}
+.hosting-use span {
+	font-weight: 700;
+	color: #01b1f7;
+}
+.footer {
+	width: 60%;
+	margin: 0px auto;
+	color: #aaa;
+	font-size: 10px;
+}
+footer {
+	background: #091722;
+	padding: 20px 0px;
+	overflow: hidden;
+}
+footer p {
+	float: left;
+}
+footer nav {
+	float: right;
+	margin-right: 0px;
+}
+footer a {
+	color: #aaa;
+	text-transform: capitalize;
+}
