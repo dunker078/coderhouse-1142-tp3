@@ -283,3 +283,34 @@
 	</footer>
 </body>
 </html>
+
+<!--
+	# Devolución:
+	
+	Muy buen trabajo. El HTML está bien armado, es muy legible y el diseño está muy bien 
+	implementado en los dos archivos HTML. También hiciste un muy buen uso de webfonts y 
+	del tag <hr />, que a veces es complicado de aplicar correctamente. Más que 
+	correcciones, tengo algunos comentarios para mejorarlo.
+
+	## HTML
+
+	* En el logo, el <h1> debería contener al <a> y no al revés. Acordate que 
+	  convencionalmente no se ponen elementos de tipo block dentro de elementos inline.
+	* Las secciones principales debajo de <main> podrían estar identificadas con IDs en 
+	  lugar de clases, ya que se usan una sola vez y son muy descriptivas del rol del 
+	  elemento en la página. Las clases están pensadas para elementos que tienen que verse
+	  de manera similar, y los IDs para describir elementos que aparecen una sola vez.
+	* No hace falta poner <br /> después de tags de encabezado (<h1> a <h3>), ya que por 
+	  ser de tipo block generan directamente el salto de línea.
+	* En contacto.html hay un segundo tag <form> que no hace falta.
+
+	## CSS
+
+	* Por una cuestión de legibilidad, dejaría saltos de línea después de cada selector. 
+	  En este archivo no molesta, pero cuando tengas archivos más largos te puede llegar a 
+	  complicar un poco. Cuando veamos SASS vas a entender mejor mi punto.
+	* Ojo con la indentación: a veces tenés tab y otras veces 4 espacios. Esto también puede 
+	  complicar la legibilidad en archivos más grandes.
+	* Falta centrar la navegación del header verticalmente. Eso se puede hacer ajustando el 
+	  padding, o usando flexbox para el el header.
+-->
